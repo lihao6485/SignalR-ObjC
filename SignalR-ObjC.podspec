@@ -15,10 +15,6 @@ Pod::Spec.new do |s|
     sp.source_files = 'SignalR.Client/**/*.{h,m}'
     sp.dependency 'AFNetworking', '~>2.0'
     sp.dependency 'SocketRocket', '~>0.4'
-  end
-
-  s.subspec 'CocoaLumberjack' do |sp|
     sp.dependency 'CocoaLumberjack', '~>1.0'
-    sp.dependency 'SignalR-ObjC/Core'
   end
 end
